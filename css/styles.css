@@ -562,6 +562,7 @@ body {background:var(--background-white);
 .media {
     width: 208px;
     height: 80px;
+    margin-right: 80px;
 
 }
 .soc-media {
@@ -615,6 +616,40 @@ body {background:var(--background-white);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+.email-form{
+    display: flex;
+}
+.subsc-label{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-right: 24px;
+}
+.email-input{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    margin-right: 24px;
+    padding-left: 16px;
+    background-color: var(--brand-color);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
+}
+.btn-subscr{
+    width: 165px;
+    height: 40px;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color:var(--background-white);
+    gap: 16px;
+    background:var(--logo-web-color);
+    border-radius: 4px;
 }
 
 
