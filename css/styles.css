@@ -608,6 +608,14 @@ body {background:var(--background-white);
     fill: var(--sns-icon);
 }
 
+.subsc-title {
+    margin: 0 0 16px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
 
 
 /* Portfolio page */
