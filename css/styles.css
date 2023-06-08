@@ -266,6 +266,7 @@ body {background:var(--background-white);
     border-radius: 4px;
     z-index: 2;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .close-btn {
@@ -302,6 +303,45 @@ body {background:var(--background-white);
     background: var(--nav-color);
     border: none;
     fill: #ffffff;
+}
+
+.modal-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+
+.modal-label{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-bottom: 8px;
+}
+
+.label-text{
+    margin-bottom: 4px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--icon-color)
+}
+.modal-icon{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    fill: var(--brand-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-holder {
+    position: relative;
 }
 
 
@@ -630,26 +670,52 @@ body {background:var(--background-white);
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    margin-right: 24px;
     padding-left: 16px;
     background-color: var(--brand-color);
     filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
+    color: #FFFFFF;
 }
 .btn-subscr{
+    border: none;
     width: 165px;
     height: 40px;
     padding-left: 24px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
+
+    
     color:var(--background-white);
     gap: 16px;
     background:var(--logo-web-color);
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-subscr:focus {
+    background-color: var(--nav-color);
+}
+.btn-subscr:hover {
+    background-color: var(--nav-color);
+}
+.email-input::placeholder {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+}
+.email-input:not(:placeholder-shown):required:valid {
+    color: #FFFFFF;
+}
+.send-icon {
+
 }
 
 

@@ -363,10 +363,10 @@
                     <label class="subsc-label">
                         <input type="email" name="email" placeholder="E-mail" class="email-input"/>
                     </label>
-                    <button class="btn-subscr" type="submit">Subscribe</button>
+                    <button class="btn-subscr" type="submit">Subscribe 
+                     <svg class="send-icon" width="24" higth="24"><use href="./images/icons.svg#icon-send"></use></svg>
+                    </button>
                 </form>
-                
-
             </div>
 
         </div>
@@ -380,11 +380,38 @@
                     </svg>
                 </button>
                 <p class="modal-title">Leave your contacts and we will call you back</p>
-                <input class="modal-form">
-                    <input type="text" class="modal-input"/>
-                    <input type="text" class="modal-input"/>
-                    <input type="text" class="modal-input"/>
-                    <input type="text" class="modal-input"/>
+                <form class="modal-form">
+                <label class="modal-label">
+                    <span class="label-text">Name</span>
+                    <span class="icon-holder"> 
+                    <input name="name" type="text" class="modal-input focus-input"/>
+                    <svg class="modal-icon" width="18" higth="24"><use href="./images/icons.svg#icon-person"></use></svg>
+                    </span>
+                </label>
+                <label class="modal-label">
+                    <span class="label-text">Phone</span>
+                    <span class="icon-holder">
+                    <input name="phone" type="tel" class="modal-input focus-input"/>
+                    <svg class="modal-icon" width="18" higth="24"><use href="./images/icons.svg#icon-phone"></use></svg>
+                 </span>
+                </label>
+                <label class="modal-label">
+                    <span class="label-text">Email</span>
+                    <span class="icon-holder">
+                    <input name="email" type="email" class="modal-input focus-input"/>
+                    <svg class="modal-icon" width="18" higth="24"><use href="./images/icons.svg#icon-email"></use></svg>
+                    </span>
+                </label>
+                <label class="modal-label">
+                    <span class="label-text">Comment</span>
+                    <span class="icon-holder">
+                    <input name="comment" type="text" class="modal-input focus-input" placeholder="Text input"/>
+                    </span>
+                </label>
+                <label class="modal-label">
+                    <input type="checkbox" class="modal-input" value="Privacy Policy"/>
+                    I accept the terms and conditions of the <span class="privacy">Privacy Policy</span> 
+                </label>
                     <button class="modal-btn" type="submit">Send</button>
 
                 </form>
