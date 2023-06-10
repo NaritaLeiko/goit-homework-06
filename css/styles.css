@@ -343,6 +343,103 @@ body {background:var(--background-white);
 .icon-holder {
     position: relative;
 }
+.modal-input {
+    width: 360px;
+    height: 40px;
+    padding: 11px 38px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.comment-label{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-bottom: 16px;
+}
+.modal-input-comment{
+    resize: none;
+    width: 360px;
+    padding: 8px 16px;
+    height: 120px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-label {
+    position: relative;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 24px;
+    padding-left: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: var(--icon-color);
+}
+.privacy {
+    color:var(--logo-web-color);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.checkbox-input{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.checkbox-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -24px;
+    transition: background-image, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+
+.modal-btn{
+    display: block;
+    width: 169px;
+    height: 56px;   
+    border:none;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--background-white); 
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover {
+    background: var(--nav-color);
+    border: none;
+}
+
+.modal-btn:focus {
+    background: var(--nav-color);
+    border: none;
+}
 
 
 /* Section 2 */
