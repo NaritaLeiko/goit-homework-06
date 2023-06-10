@@ -772,6 +772,7 @@ body {background:var(--background-white);
 }
 .email-form{
     display: flex;
+    gap: 24px;
 }
 .subsc-label{
     display: inline-flex;
@@ -787,10 +788,14 @@ body {background:var(--background-white);
     background-color: var(--brand-color);
     filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 4px 4px);
     color: #FFFFFF;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .btn-subscr{
     border: none;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     padding-left: 24px;
 
@@ -802,6 +807,7 @@ body {background:var(--background-white);
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
 
     
     color:var(--background-white);
@@ -828,6 +834,7 @@ body {background:var(--background-white);
     color: #FFFFFF;
 }
 .send-icon {
+    margin-left: 16px;
 
 }
 
