@@ -316,7 +316,7 @@ body {background:var(--background-white);
     color: var(--brand-color);
 }
 
-.modal-label{
+.modal-field{
     display: flex;
     flex-direction: column;
     width: 360px;
@@ -356,6 +356,7 @@ body {background:var(--background-white);
     flex-direction: column;
     width: 360px;
     margin-bottom: 16px;
+    margin-top: 8px;
 }
 .modal-input-comment{
     resize: none;
@@ -421,7 +422,7 @@ body {background:var(--background-white);
     height: 16px;
     margin-left: -24px;
     transition: background-image, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+    
 }
 
 .modal-btn{
@@ -834,7 +835,7 @@ body {background:var(--background-white);
     color: #FFFFFF;
 }
 .send-icon {
-    margin-left: 16px;
+    margin-right: 24px;
 
 }
 
