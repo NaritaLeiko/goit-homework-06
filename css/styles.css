@@ -387,7 +387,7 @@ body {background:var(--background-white);
     fill: var(--logo-web-color)
 }
 
-.checkbox-input:checked ~.checkbox-holder {
+.checkbox-input:checked + .checkbox-label span {
     border: none;
     fill:var(--background-color-gray);
     background-color:var(--nav-color);
